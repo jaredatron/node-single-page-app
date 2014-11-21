@@ -1,5 +1,5 @@
-model  = require 'app/model'
-router = require 'app/router'
+model  = require './model.coffee'
+router = require './router.coffee'
 
 app = {
   model:  model,
