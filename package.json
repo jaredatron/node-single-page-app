@@ -1,0 +1,20 @@
+{
+  "author": "Jared Grippe",
+  "name": "single-page-app",
+  "description": "single page app",
+  "version": "0.0.1",
+  "license": "Copyrighted / All Rights Reserved",
+  "dependencies": {
+    "express": "~3.4.x",
+    "coffee-script": "^1.7.1"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "web": "coffee web.coffee"
+  },
+  "private": true
+}
