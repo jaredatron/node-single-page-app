@@ -1,4 +1,9 @@
-app = React.createClass
+React = require 'react'
+
+module.exports = React.createClass
   render: ->
-    React.DOM.div(null, 'THIS IS THE APP')
+    if global.CSSCharsetRule
+      React.DOM.div(null, 'CLINET SIDE')
+    else
+      React.DOM.div(null, 'SERVER SIDE')
 
