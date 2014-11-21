@@ -1,9 +1,3 @@
-model  = require './model.coffee'
-router = require './router.coffee'
+app = require './app.coffee'
 
-app = {
-  model:  model,
-  router: router,
-}
-
-module.exports = app
+React.render(app(), document.body)
